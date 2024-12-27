@@ -1,0 +1,25 @@
+
+
+
+.container {
+    width:100%;
+    height:100%;
+    top:0px;
+    position:relative;
+    display:block;
+    padding:5px 0px 5px 0px;
+    text-align: center;
+    background: rgb(213,229,255);
+    background: linear-gradient(105deg, rgba(213,229,255,1) 0%, rgba(164,233,247,1) 100%);
+}
+
+.item {
+
+    border-bottom: 5px outset rgba(196, 231, 233, 0.5);
+}
+
+.paragraph {
+    padding:10px;
+}
+
+

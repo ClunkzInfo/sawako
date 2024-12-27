@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+ 
+  h1,h2,h3,h4,h5,p{
+    margin:0px;
+  }
+  
+  /*     Not sure if overflow-x or 100vw is working          */
+.main{
+    position:relative;
+    background: rgb(255,255,255);
+    background: linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(232,251,255,1) 100%);
+    padding: 20px;
+    margin:0px;
+   /* overflow-x:hidden;    */
+
+}
+
+
+/* <uniquifier>: Use a unique and descriptive class name    */
+/* <weight>: Use a value from 200 to 900    */
+
+.noto-serif-jp-japanese {
+  font-family: "Noto Serif JP", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+/*      TO Allign div horizontall in container      */
+/*       make horizontal margins auto and can't have 100% width! */
+
+
+@media (max-width: 800px) {
+    .gallery {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .galleryImages {
+        margin:5px auto 5px auto;
+        /*border: 3px solid #223f3f;*/
+        width:350px;
+    
+      }
+}
+
+
