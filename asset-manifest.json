@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sawako/static/css/main.1f69e78f.css",
+    "main.js": "/sawako/static/js/main.89a4c31e.js",
+    "index.html": "/sawako/index.html",
+    "main.1f69e78f.css.map": "/sawako/static/css/main.1f69e78f.css.map",
+    "main.89a4c31e.js.map": "/sawako/static/js/main.89a4c31e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f69e78f.css",
+    "static/js/main.89a4c31e.js"
+  ]
+}
