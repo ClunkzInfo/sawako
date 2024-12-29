@@ -15,9 +15,19 @@ const elementTitleDimensionsPrice = <div className="imgDisplay">
         </div>
 
 
+const path = window.location.href
+
+console.log('path: ',path)
+
 const paintings = images.map(item => {
 
-      return <img key={item.id} className={styles.galleryImages} src={item.src}/>
+    console.log(path+item.src)
+      return <img 
+      key={item.id} 
+      className={styles.galleryImages} 
+      src={item.src}/>
+
+      
 
 })
 function imgDisplayOne() {

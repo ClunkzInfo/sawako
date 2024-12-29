@@ -7,13 +7,12 @@
     top:0px;
     z-index: 1030;  
     paint-order:stroke fill;
-     -webkit-text-fill-color: black;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 10px;
     -webkit-text-stroke-color: #c4f5ff;
-    /*background-color:rgb(198, 239, 255);  */
     background: rgb(166,240,255);
-    background: radial-gradient(circle, rgba(166,240,255,1) 0%, rgba(148,208,220,1) 100%);
-   
+    background: radial-gradient(circle, rgba(166,240,255,1) 0%, rgba(148,208,220,1) 100%);   
+ 
    
 
 }
@@ -26,8 +25,8 @@
     font-size: 30px;
     margin:0px;
 
- 
-
+    animation-duration: 3s;
+    animation-name: grow-shrink;
 
 
 }
@@ -44,4 +43,18 @@
     width:48px;
     height:38px;
 
+
 }
+
+
+@keyframes grow-shrink {
+    25%,
+    75% {
+      scale: 100%;
+    }
+  
+    50% {
+      scale: 200%;
+      color: magenta;
+    }
+  }
