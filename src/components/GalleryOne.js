@@ -1,6 +1,5 @@
 import React from 'react'
 import { images } from './images'
-
 import styles from './Main.module.css'
 
 const elementTitleDimensionsPrice = <div className="imgDisplay">
@@ -20,15 +19,10 @@ const path = window.location.href
 console.log('path: ',path)
 
 const paintings = images.map(item => {
-
-    console.log(path+item.src)
-      return <img 
+    return <img 
       key={item.id} 
       className={styles.galleryImages} 
       src={item.src}/>
-
-      
-
 })
 function imgDisplayOne() {
   return (

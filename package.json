@@ -1,7 +1,7 @@
 {
   "name": "sawako",
   "version": "0.1.0",
-  "homepage":"http://ClunkzInfo.github.io/sawako/",
+  "homepage":"https://ClunkzInfo.github.io/sawako/",
   
   "private": true,
   "dependencies": {

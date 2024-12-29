@@ -1,3 +1,5 @@
+import nav from './img/nav1.png'
+
 import image1 from './img/oilpainting1.png'
 import image2 from './img/oilpainting2.png'
 import image3 from './img/oilpainting3.png'
@@ -51,7 +53,7 @@ export const images = [
 export const siteImages = [
     {
         id:'nav1',
-        src:'../img/nav1.png',
+        src:nav
     }
 ]
 
