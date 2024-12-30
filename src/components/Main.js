@@ -3,10 +3,10 @@ import GalleryOne from './GalleryOne'
 import About from './About'
 import Menu from './Menu'
 
-function Main() {
+function Main({isMenuOpen}) {
   return (
     <div className="main">
-        <Menu/>
+        {/* <Menu isMenuOpen={isMenuOpen}/> */}
         <GalleryOne/>        
         <About/>
     </div>

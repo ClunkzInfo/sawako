@@ -3,9 +3,16 @@ import styles from './Menu.module.css'
 
 import { decoration } from './images'
 
-function Menu() {
-  return (
-    <div className={styles.container}>
+function Menu({isMenuOpen}) {
+    console.log("isMenuOpen: ",isMenuOpen)
+    const res = isMenuOpen ? styles.open : styles.close
+    console.log('res: ',res)
+    return (
+    <div className={styles.container+" "+res}>
+
+       {/*  <div className={styles.basic+" "+res}></div>*/}
+
+
         <div className={styles.nav}>
             <div className={styles.icon}>
                 <img 
@@ -38,6 +45,10 @@ function Menu() {
             </div>
             <p className={styles.title}>Contact</p>
         </div>
+
+
+
+
     </div>
   )
 }
