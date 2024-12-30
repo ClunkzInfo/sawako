@@ -1,7 +1,7 @@
+
 import React from 'react'
 import styles from './About.module.css'
 
-const hey = 0
 const education = `
     施成わお選先ツルマ定報チ億最クエフ申爾ノ生備ヨヒイヲ質啓ネサレモ非1男わフむト立握ヨムミ探先も面2治ず紹7亨しせクっ。
     豊ずいえ腹写ミツヒヤ頭次ぎつ刊過リすげ展人フホナタ年極み庭県コ任上ごぱクゃ選条づ公7反ヤウア児希フ歴強ネキケ間舎そスくこ工軽済イワム状相依抱診露ぱまょも。

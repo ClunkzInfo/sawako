@@ -1,4 +1,8 @@
 import nav from './img/nav1.png'
+import brush from './img/brush.png'
+import roller from './img/roller.png'
+import about from './img/about.png'
+import contact from './img/contact.png'
 
 import image1 from './img/oilpainting1.png'
 import image2 from './img/oilpainting2.png'
@@ -55,7 +59,15 @@ export const siteImages = [
         id:'nav1',
         src:nav
     }
+
 ]
+
+export const decoration = {
+    "brush":brush,
+    "roller":roller,
+    about,
+    contact
+}
 
 
 

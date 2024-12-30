@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(166, 166, 166); paint-order: stroke; stroke-width: 10px;" d="M 113.866 22.707 L 133.087 22.492 L 137.469 53.358 L 72.745 74.596 L 72.745 90.239 L 65.703 89.5 L 65.533 71.284 L 128.484 47.984 L 126.01 28.676 L 114.339 28.676"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); stroke-width: 8px; paint-order: stroke;" d="M 27.357 22.492 L 24.082 22.882 C 21.808 22.754 22.26 28.579 23.992 28.676 L 27.857 28.44 L 27.23 22.698"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(154, 154, 154); paint-order: stroke; stroke-width: 10px;" d="M 38.161 11.25 C 40.589 7.241 105.836 9.521 108.159 11.668 C 117.152 13.72 112.729 40.847 107.691 39.697 C 108.988 40.678 41.194 42.46 35.958 38.498 C 30.881 38.109 26.752 10.597 38.218 11.472"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 60.533 36.015 L 63.493 40.957"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 67.488 33.502 L 71.954 40.958"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 72.954 32.586 L 77.968 40.957"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 81.032 32.761 L 85.942 40.958"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 88.942 33.021 L 93.696 40.958"/>
+  <path style="fill: rgb(216, 216, 216); stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); paint-order: stroke; stroke-width: 3px;" d="M 95.331 34.872 L 98.292 39.813"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; stroke: rgb(0, 0, 0); fill: rgb(130, 130, 130); paint-order: stroke; stroke-width: 10px;" d="M 58.72 87.785 L 76.954 87.855 L 76.331 150.954 L 59.618 150.561 L 58.935 88.448"/>
+</svg>

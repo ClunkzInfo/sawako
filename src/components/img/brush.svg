@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <path style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px; fill: rgb(130, 130, 130); stroke: rgb(40, 40, 40);" d="M 87.121 50.541 L 126.641 10.08 C 144.835 -4.314 162.29 25.591 150.074 35.256 L 110.721 72.949"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 8px; fill: rgb(154, 154, 154); stroke: rgb(40, 40, 40);" d="M 47.818 54.606 L 5.853 91.903 L 20.629 105.76 L 40.111 96.116 L 32.301 119.974 L 48.132 131.601 L 74.363 113.997 L 59.003 142.667 L 70.458 153.77 L 110.313 115.494"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: rgb(166, 166, 166); stroke: rgb(40, 40, 40); stroke-width: 8px;" d="M 41.364 45.151 L 61.175 24.09 L 138.582 100.803 L 116.099 121.076 L 39.119 44.253 L 61.564 23.955"/>
+</svg>

@@ -11,8 +11,8 @@
   /*     Not sure if overflow-x or 100vw is working          */
 .main{
    
-    background: rgb(255,255,255);
-    background: linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(232,251,255,1) 100%);
+    background: #f9fafa;
+    /* background: linear-gradient(105deg, rgba(255,255,255,1) 0%, rgba(232,251,255,1) 100%); */
    
    /* overflow-x:hidden;    */
 
