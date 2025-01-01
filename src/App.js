@@ -7,25 +7,11 @@ import styles from './components/Main.module.css'
 
 function App() {
 
-    const [isMenuOpen,toggleMenu] = useState(false)
-
-    const toggle = () => {
-
-        if(isMenuOpen) { 
-            toggleMenu(false)
-        } else { 
-            toggleMenu(true)
-        }
-
-
-    }
-
-
   return (
     <div className={styles.App}>
-      <Header isMenuOpen={isMenuOpen} toggleHandler={toggle}/>
-      <Main isMenuOpen={isMenuOpen}/>
-      <Footer/>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   )
   

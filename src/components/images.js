@@ -1,3 +1,5 @@
+
+
 import nav from './img/nav1.png'
 import brush from './img/brush.png'
 import roller from './img/roller.png'
@@ -12,59 +14,59 @@ import image5 from './img/oilpainting5.png'
 
 
 
-
-
-
 export const images = [
 
     {
         id:'0001',
-        name:'',
+        title:'(Title)',
         src:image1,
         dimensions:'300cm X 300cm',
+        description:'(This is a description)',
        
     },
     {
         id:'0002',
-        name:'',
+        title:'(Title)',
         src:image2,
         dimensions:'300cm X 300cm',
+        description:'(This is a description)',
+
     },
     {
         id:'0003',
-        name:'',
+        title:'(Title)',
         src:image3,
         dimensions:'300cm X 300cm',
+        description:'(This is a description)',
+
     },
     {
         id:'0004',
-        name:'',
+        title:'(Title)',
         src:image4,
         dimensions:'300cm X 300cm',
+        description:'(This is a description)',
+
     },
     {
         id:'0005',
-        name:'',
+        title:'(Title)',
         src:image5,
         dimensions:'300cm X 300cm',
+        description:'(This is a description)',
+
     },
 
 ]
 
-//src:'../img/oilpainting5.png',
 
+export const decorations = {
 
-export const siteImages = [
-    {
-        id:'nav1',
-        src:nav
-    }
+    nav,
 
-]
-
-export const decoration = {
-    "brush":brush,
-    "roller":roller,
+    //icons
+    brush,
+    roller,
     about,
     contact
 }

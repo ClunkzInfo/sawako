@@ -1,31 +1,35 @@
+
 import React, { useState } from 'react'
-import { siteImages } from './images'
+import { decorations } from './images'
 import styles from './Header.module.css'
 import Menu from './Menu';
 
-const nav = siteImages[0];
+const { nav } = decorations
 
+function Header () {
 
+    const [isMenuOpen,toggleMenu] = useState(false)
 
-function Header({isMenuOpen,toggleHandler}) {
+    const toggle = () => {
+        if(isMenuOpen) { 
+            toggleMenu(false)
+        } else { 
+            toggleMenu(true)
+        }
+    }
 
   return (
     <div className={styles.header}> 
-       
         <div className={styles.background}></div>
         <div className={styles.titleContainer}>
             <h1 className={styles.title}>荻野さわこ</h1>
         </div>   
-
         <div 
             className={styles.nav}
-            onClick={() => toggleHandler(isMenuOpen)}
-        >
-            <img className={styles.navImage} src={nav.src} />
+            onClick={() => toggle(isMenuOpen)}>
+            <img className={styles.navImage} src={nav} />
         </div>
-       
         <Menu isMenuOpen={isMenuOpen}/>
-
     </div>
   )
 }

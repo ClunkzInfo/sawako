@@ -1,54 +1,34 @@
 import React from 'react'
 import styles from './Menu.module.css'
 
-import { decoration } from './images'
+import { decorations } from './images'
+
+
+const navItems = [
+    {id:'001',src:'brush',title:'油絵'},
+    {id:'002',src:'roller',title:'平版'},
+    {id:'003',src:'about',title:'About'},
+    {id:'004',src:'contact',title:'Contact'},
+
+]
+
+const navItemElements = navItems.map((item => {
+    return (<div key={item.id} className={styles.nav}>
+        <div  className={styles.icon}>
+            <img 
+            className={styles.iconImg}
+            src={decorations[item.src]}/>
+        </div>
+        <p className={styles.title}>{item.title}</p>
+    </div>
+    )
+}))
 
 function Menu({isMenuOpen}) {
-    console.log("isMenuOpen: ",isMenuOpen)
     const res = isMenuOpen ? styles.open : styles.close
-    console.log('res: ',res)
     return (
     <div className={styles.container+" "+res}>
-
-       {/*  <div className={styles.basic+" "+res}></div>*/}
-
-
-        <div className={styles.nav}>
-            <div className={styles.icon}>
-                <img 
-                className={styles.iconImg}
-                src={decoration.brush}/>
-            </div>
-            <p className={styles.title}>油絵</p>
-        </div>
-        <div className={styles.nav}>
-            <div className={styles.icon}>
-                <img 
-                className={styles.iconImg}
-                src={decoration.roller}/>
-            </div>
-            <p className={styles.title}>平版</p>
-        </div>
-        <div className={styles.nav}>
-            <div className={styles.icon}>
-                <img 
-                className={styles.iconImg}
-                src={decoration.about}/>
-            </div>
-            <p className={styles.title}>About</p>
-        </div>
-        <div className={styles.nav}>
-            <div className={styles.icon}>
-                <img 
-                className={styles.iconImg}
-                src={decoration.contact}/>
-            </div>
-            <p className={styles.title}>Contact</p>
-        </div>
-
-
-
-
+        {navItemElements}
     </div>
   )
 }
