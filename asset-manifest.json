@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/sawako/static/css/main.3e165a7e.css",
-    "main.js": "/sawako/static/js/main.02e4abdf.js",
+    "main.css": "/sawako/static/css/main.a1c5ae8d.css",
+    "main.js": "/sawako/static/js/main.23adebe1.js",
     "static/media/oilpainting5.png": "/sawako/static/media/oilpainting5.a7c916fa5155d6a00567.png",
+    "static/media/oilpainting7.png": "/sawako/static/media/oilpainting7.5d1063e7db6dd9761d87.png",
     "static/media/oilpainting3.png": "/sawako/static/media/oilpainting3.33855496dab3406daf9d.png",
     "static/media/oilpainting1.png": "/sawako/static/media/oilpainting1.451c83a759043c0c644c.png",
+    "static/media/oilpainting6.png": "/sawako/static/media/oilpainting6.1503e8bb68a14b50eb5c.png",
     "static/media/oilpainting2.png": "/sawako/static/media/oilpainting2.d968341aec32a5857b5b.png",
     "index.html": "/sawako/index.html",
-    "main.3e165a7e.css.map": "/sawako/static/css/main.3e165a7e.css.map",
-    "main.02e4abdf.js.map": "/sawako/static/js/main.02e4abdf.js.map"
+    "main.a1c5ae8d.css.map": "/sawako/static/css/main.a1c5ae8d.css.map",
+    "main.23adebe1.js.map": "/sawako/static/js/main.23adebe1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e165a7e.css",
-    "static/js/main.02e4abdf.js"
+    "static/css/main.a1c5ae8d.css",
+    "static/js/main.23adebe1.js"
   ]
 }
