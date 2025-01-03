@@ -14,7 +14,7 @@
 .main{
    
     background: #f9fafa;
-    z-index: -500;
+    z-index: -5;
 
 }
 
@@ -39,7 +39,9 @@
     /* display:flex;
     flex-direction: column; */
     /* display: grid ; */
-      
+    width: 100%;
+    height: 100%;
+    z-index: -5;
 
 }
 
@@ -48,6 +50,7 @@
 .container {
     width: 200px;
     margin: 10px;
+    z-index: -5;
     
     /* height: 200px; */
 
@@ -55,7 +58,7 @@
 .image {
     /* margin:5px auto 5px auto; */
     /* flex: 50%; */
-    z-index: -2;
+    z-index: -5;
     /*border: 3px solid #223f3f;*/
     width:100%;
     height: auto;
@@ -63,7 +66,7 @@
 
 .overlay {
     position:fixed;
-    top:50px;
+    top:0px;
     z-index: 1;
     width:100%;
     height:100%;
@@ -74,7 +77,109 @@
 
 
 .close{
-    width: 100px;
-    height: 100px;
+    margin: 10px auto 0px auto;
+    width: 90px;
+    height: 80px;
     background-color: grey;
+    border-radius: 5px;
+    border-color: white;
+    border-width: 4px;
+    z-index: 0;
+}
+
+.button {
+    width: 64px;
+    height: 56px;
+    background-color: black;
+    border-radius: 5px;
+    border:5px solid #d5fbeb;
+    display:flex;
+}
+
+.next{
+    margin:auto 10px auto auto;
+    float:right;
+}
+
+.back{
+    margin:auto 0px auto 10px;
+}
+.backImg{
+    width: 100%;
+}
+
+.details {
+    /* background-color: purple; */
+    /* background: rgb(65,115,110);
+    background: radial-gradient(circle, rgba(65,115,110,1) 0%, rgba(44,90,99,1) 88%); */
+    width: 390px;
+    height: 200px;
+    margin: 90px auto 10px auto;
+    border-radius:15px;
+    position: relative;
+}
+
+.detailsBg1 {
+    background: rgb(54,184,190);
+background: radial-gradient(circle, rgba(54,184,190,1) 0%, rgba(12,102,106,1) 88%);
+}
+
+.detailsBg2 {
+    background: rgb(225,54,39);
+    background: radial-gradient(circle, rgba(225,54,39,1) 0%, rgba(96,32,26,1) 100%);
+}
+
+.detailsBg3 {
+    background: rgb(0,126,211);
+    background: radial-gradient(circle, rgba(0,126,211,1) 0%, rgba(8,61,97,1) 100%);
+}
+
+.detailsBg4 {
+    background: rgb(152,144,144);
+    background: radial-gradient(circle, rgba(152,144,144,1) 0%, rgba(72,66,66,1) 100%);
+}
+
+.detailsBg5 {
+    background: rgb(109,180,201);
+    background: radial-gradient(circle, rgba(109,180,201,1) 0%, rgba(185,19,9,1) 100%);
+}
+
+.overlayImageContainer{
+    width: 390px;
+    height: 300px;
+    /* margin-top:70px; */
+    margin-inline: auto; 
+    position: relative;
+    /* margin: auto; */
+    top: 70px;
+    background: white;
+}
+
+.displayedImage{
+    /* width: 370px; */
+    /* height: 100%; */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* visibility: hidden; */
+
+}
+.portrait {
+    height: 100%;
+}
+.landscape {
+    width: 100%;
+}
+
+.title {
+    font-size:30px;
+}
+
+.dimensions{
+    font-size:20px;
+}
+
+.descsription{
+    font-size:20px;
 }

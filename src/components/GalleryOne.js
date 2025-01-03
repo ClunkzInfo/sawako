@@ -1,40 +1,69 @@
 import React, { useState } from 'react'
-import { images } from './images'
+import { decorations, images } from './images'
 import styles from './Main.module.css'
 
 function GalleryOne() {
-    const [viewMode,selectView] = useState({id:'xxxx',title:'xxx',dimensions:'xxx',src:'xxx'})
-    const [tooltipOn,toggleTooltip] = useState(false)
+    const [index,setIndex] = useState(0)
+    const [currView,setView] = useState({
+        id:'xxxx',
+        title:'xxx',
+        dimensions:'xxx',
+        src:'xxx',
+        bg:'xxx'})
+    const [viewOpen,setViewOpen] = useState(false)
 
-    const closeTooltip = () => {
-        toggleTooltip(false)
+    const handlleShift = nextIndex => {
+        if(nextIndex > images.length -1) { 
+            setIndex(0)
+        } else if (nextIndex < 0) {
+            setIndex(images.length-1)
+        } else { 
+            setIndex(nextIndex)
+        }
+        setView({...images[index]})
     }
+
+    const toggle = newIndex => {
+        setViewOpen(true)
+        setView({...images[newIndex]})
+    }
+
     const tooltip = args => {
         return (
             <div className={styles.overlay}>
-                <div className={styles.close} onClick={closeTooltip}></div>
-                <div>
-                    <img src={args.src}></img>
+                <div className={styles.overlayImageContainer}>
+                    <img className={styles.displayedImage+" "+styles[args.type || "landscape"]}src={args.src}></img>
                 </div>
-                <p>{args.title}</p>
-                <p>{args.dimensions}</p>
-                <p>{args.description}</p>
+                <div className={styles.details+" "+styles[args.bg]}>
+                    <p className={styles.title}>{args.title}</p>
+                    <p className={styles.dimensions}>{args.dimensions}</p>
+                    <p className={styles.description}>{args.description}</p>
+                </div>
+               
+                <div className={styles.button+" "+styles.next} onClick={() => handlleShift(index+1)}>
+                    <img src={decorations.next}/>
+                </div>
+                <div className={styles.button+" "+styles.back} onClick={() => handlleShift(index-1)}>
+                    <img src={decorations.back}/>
+                </div>
+                <div className={styles.button+" "+styles.close} onClick={() => setViewOpen(false)}>
+                    <img src={decorations.close}/>
+                </div>
             </div>
         )
     }
     
-    const display = state => {
-        toggleTooltip(true)
-        selectView({...state})
-    }
-
     const paintings = () => images.map(item => {
+
         return (
-        <div className={styles.container} key={item.id}>
+        <div className={styles.container} key={item.index}>
             <img 
                 className={styles.image} 
                 src={item.src}
-                onClick={display.bind(this,{...item})}/>
+                //onClick={() => setView({...item,isOpen:true})}/>
+                //onClick={() => setView({...images[item.index],isOpen:true})}/>
+                //onClick={() => toggle({...images[item.index]})}/>
+                onClick={() => toggle(item.index)}/>
         </div>
         )      
     })
@@ -42,9 +71,10 @@ function GalleryOne() {
   return (
     <div className={styles.gallery}>
         {paintings()}
-        {tooltipOn && tooltip(viewMode)}
+        {/* {currView.isOpen && tooltip(currView)} */}
+        {/* {viewOpen && tooltip(images[index])} */}
+        {viewOpen && tooltip(currView)}
     </div>
-
   )
 }
 

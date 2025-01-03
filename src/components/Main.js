@@ -6,7 +6,6 @@ function Main() {
   return (
     <div className="main">
         <GalleryOne/>        
-        {/* <About/> */}
     </div>
   )
 }

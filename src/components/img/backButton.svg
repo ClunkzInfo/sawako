@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 160 140" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="47.5" height="33.7"/>
+  </defs>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke: rgb(255, 255, 255); stroke-width: 16px;" d="M 85.404 185.852 L 24.243 229.604 L 85.165 280.249"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 8px; stroke: rgb(152, 152, 152);" d="M 85.404 185.852 L 24.243 229.604 L 85.165 280.249"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke: rgb(255, 255, 255); stroke-width: 16px;" d="M 134.542 185.852 L 73.381 229.604 L 134.303 280.249"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 8px; stroke: rgb(152, 152, 152);" d="M 134.542 185.852 L 73.381 229.604 L 134.303 280.249"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 26px; stroke: rgb(213, 251, 235);" d="M 84.688 22.802 L 23.527 66.554 L 84.449 117.199"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 8px; stroke: rgb(69, 69, 69);" d="M 82.337 22.802 L 21.176 66.554 L 82.098 117.199"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 26px; stroke: rgb(213, 251, 235);" d="M 138.824 22.802 L 77.663 66.554 L 138.585 117.199"/>
+  <path style="stroke-linecap: round; stroke-linejoin: round; fill: none; stroke-width: 8px; stroke: rgb(69, 69, 69);" d="M 138.824 22.802 L 77.663 66.554 L 138.585 117.199"/>
+</svg>
